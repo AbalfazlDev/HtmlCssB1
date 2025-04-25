@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:"Shabnam";
+    src:url("/Font/Shabnam-FD.woff2") format("woff2");
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family:"Shabnam";
+}
+
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    width:65vw;
+    margin-top: 20px;
+}
+
+.section-head{
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+}
+
+.newsvg{    
+    width: 24px;
+    height: 26px;
+    display: inline;
+    fill:rgb(0, 119, 216);
+}
+
+.score-product svg{
+    width: 17px;
+    height: 17px;
+    fill:rgb(255, 221, 0);
+}
+
+
+.score-product{
+    font-size: 12px;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items:end;
+}
+
+.score-product p{
+    margin: 0px;
+}
+
+.price-product{
+    margin: 0;
+}
+
+.section-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 10px 20px 10px;
+}
+
+.offprice{
+    background-color: #c3e6ffaf;
+    color:#004bffd7;
+    display: inline;
+    border-radius:3px;
+    font-size:12px;
+    padding:2px;
+
+}
+
+.mainprice{
+    text-decoration: line-through;
+    display: inline;
+    color:#707070;
+}
+
+.section-star{
+    display:flex;
+
+}
+
+
+.showall{
+    color:rgb(0, 115, 216);
+}
+
+.titlenewproduct{
+    display: inline;
+    margin-right:3px;
+}
+
+.section-product{
+    display:flex;
+    gap:10px;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.product{
+    height:350px;
+    width:250px;
+    display:flex;
+    padding: 8px;
+    flex-direction:column;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px rgb(209, 209, 209);
+}
+
+.product-img{
+    width:190px;
+    height:190px;
+    margin-top:5px;
+    margin-right: auto;
+    margin-bottom:3px;
+    margin-left: auto;
+}
+
+.product-p{
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size:12px;
+    color:#474747;
+    text-align: justify;
+}
